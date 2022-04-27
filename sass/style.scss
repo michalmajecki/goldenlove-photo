@@ -17,9 +17,6 @@ body {
 	font-family: 'Montserrat', sans-serif;
 	background-color: $bg-color;
 }
-h1 {
-	font-size: 4rem;
-}
 h2 {
 	font-size: 2.5rem;
 	text-align: center;
@@ -72,9 +69,7 @@ header {
 	h1 {
 		text-transform: uppercase;
 	}
-	p {
-		font-size: 2rem;
-	}
+
 	.hero-img {
 		position: relative;
 		height: 100vh;
@@ -174,10 +169,6 @@ header {
 		right: 0;
 		padding: 4rem 0;
 		background-color: rgba(0, 0, 0, 0.7);
-
-		p {
-			font-size: 1.4rem;
-		}
 	}
 	.carousel-indicators {
 		padding: 1rem;
@@ -249,9 +240,6 @@ header {
 			height: 30rem;
 			object-fit: cover;
 		}
-		p {
-			font-size: 1.4rem;
-		}
 		i {
 			font-size: 2.5rem;
 			color: $main-color;
@@ -265,6 +253,9 @@ header {
 		margin-bottom: 3rem;
 		text-align: center;
 		text-transform: uppercase;
+	}
+	.card-text {
+		font-size: 1.6rem;
 	}
 	.card-body {
 		height: 10rem;
@@ -336,6 +327,48 @@ header {
 					color: $light-gray;
 				}
 			}
+		}
+	}
+}
+
+@media (min-width: 375px) {
+	header {
+		h1 {
+			font-size: 3.6rem;
+		}
+		p {
+			font-size: 1.6rem;
+		}
+	}
+}
+@media (min-width: 768px) {
+	header {
+		h1 {
+			font-size: 4.2rem;
+		}
+		p {
+			font-size: 2rem;
+		}
+	}
+}
+@media (min-width: 992px) {
+	nav {
+		height: 8.2rem;
+	}
+	.aboutus-hero {
+		background-image: url(../img/sinitta-leunen-dS87qokCAC4-unsplash.jpg);
+	}
+	.prices {
+		.price-info {
+			font-size: 1.8rem;
+		}
+	}
+}
+
+@media (min-width: 1200px) {
+	header {
+		.hero-img {
+			background-image: url(../img/pexels-taras-budniak-1573007.jpg);
 		}
 	}
 }
