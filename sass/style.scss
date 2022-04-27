@@ -152,3 +152,28 @@ header {
 		}
 	}
 }
+
+.portfolio {
+	.carousel-item {
+		position: relative;
+		height: 60rem;
+	}
+	.carousel-caption {
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		padding: 4rem 0;
+		background-color: rgba(0, 0, 0, 0.7);
+
+		h5 {
+			font-size: 2rem;
+		}
+		p {
+			font-size: 1.4rem;
+		}
+	}
+	.carousel-indicators {
+		padding: 1rem;
+	}
+}
