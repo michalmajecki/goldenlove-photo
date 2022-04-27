@@ -273,3 +273,22 @@ header {
 		background-color: rgba(0, 0, 0, 0.7);
 	}
 }
+
+.achievements {
+	i {
+		padding: 1rem;
+		font-size: 4.8rem;
+		color: $white;
+		text-shadow: 0 0 5px $dark-main-color;
+	}
+	.achievements-list {
+		padding: 2rem 0;
+	}
+	.achievements-number {
+		font-size: 2.2rem;
+	}
+	.achievements-text {
+		font-size: 1.5rem;
+		text-transform: uppercase;
+	}
+}
