@@ -116,11 +116,23 @@ body {
   background-color: #d5d6da;
 }
 
+h1 {
+  font-size: 4rem;
+}
+
 h2 {
+  font-size: 2.5rem;
   text-align: center;
   text-transform: uppercase;
-  font-size: 2.5rem;
   margin-bottom: 3rem;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+h4 {
+  font-size: 1.5rem;
 }
 
 .gold-text {
@@ -166,7 +178,6 @@ header {
 }
 
 header h1 {
-  font-size: 4rem;
   text-transform: uppercase;
 }
 
@@ -221,8 +232,8 @@ header .fa-chevron-down {
   left: 50%;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
-  bottom: 20px;
-  font-size: 30px;
+  bottom: 2rem;
+  font-size: 3rem;
   color: #fff;
 }
 
@@ -281,7 +292,7 @@ header .fa-chevron-down {
 
 .portfolio .carousel-item {
   position: relative;
-  height: 60rem;
+  height: 50rem;
 }
 
 .portfolio .carousel-caption {
@@ -293,15 +304,65 @@ header .fa-chevron-down {
   background-color: rgba(0, 0, 0, 0.7);
 }
 
-.portfolio .carousel-caption h5 {
-  font-size: 2rem;
-}
-
 .portfolio .carousel-caption p {
   font-size: 1.4rem;
 }
 
 .portfolio .carousel-indicators {
   padding: 1rem;
+}
+
+.prices {
+  font-size: 1.4rem;
+}
+
+.prices .price-box {
+  margin: 2rem 1rem;
+  padding: 3rem;
+  background-color: #fff;
+  -webkit-box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
+          box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
+  -webkit-transition: -webkit-transform 0.3s;
+  transition: -webkit-transform 0.3s;
+  transition: transform 0.3s;
+  transition: transform 0.3s, -webkit-transform 0.3s;
+}
+
+.prices .price-box h3 {
+  color: #daa520;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.prices .price-box span {
+  font-weight: bold;
+}
+
+.prices .price-box i {
+  font-size: 2.4rem;
+  padding: 0 0.5rem;
+}
+
+.prices .price-box button {
+  padding: 1rem 2rem;
+  text-transform: uppercase;
+}
+
+.prices .price-box .price-tag {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.prices .price-box:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+.prices .price-info {
+  margin-top: 3rem;
+}
+
+.prices .price-info a {
+  text-decoration: none;
 }
 /*# sourceMappingURL=style.css.map */
