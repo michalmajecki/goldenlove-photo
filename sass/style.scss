@@ -292,3 +292,50 @@ header {
 		text-transform: uppercase;
 	}
 }
+.contact {
+	position: relative;
+	background-image: url(../img/./marc-a-sporys-NO8Sj4dKE8k-unsplash.jpg);
+	background-position: bottom;
+	background-attachment: fixed;
+	background-size: cover;
+	z-index: 0;
+	h2 {
+		color: $white;
+		font-weight: bold;
+	}
+
+	.contact-shadow {
+		position: absolute;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		background-color: rgba(17, 13, 0, 0.762);
+		z-index: -5;
+	}
+	.contact-us {
+		display: flex;
+		align-items: center;
+		color: $white;
+		.contact-item {
+			margin: 3rem 0;
+			h3 {
+				margin-bottom: 1.5rem;
+				text-transform: uppercase;
+				letter-spacing: 0.2rem;
+			}
+			p {
+				font-size: 1.6rem;
+			}
+			.social-media {
+				font-size: 2.6rem;
+				a {
+					padding: 1rem;
+					color: $white;
+				}
+				a:hover {
+					color: $light-gray;
+				}
+			}
+		}
+	}
+}
