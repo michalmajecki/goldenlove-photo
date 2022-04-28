@@ -258,7 +258,7 @@ header {
 		font-size: 1.6rem;
 	}
 	.card-body {
-		height: 10rem;
+		height: 15rem;
 	}
 	.card-footer {
 		background-color: rgba(0, 0, 0, 0.7);
@@ -339,6 +339,9 @@ header {
 		p {
 			font-size: 1.6rem;
 		}
+	}
+	p {
+		font-size: 1.4rem;
 	}
 }
 @media (min-width: 768px) {

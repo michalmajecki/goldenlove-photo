@@ -414,7 +414,7 @@ header .fa-chevron-down {
 }
 
 .team .card-body {
-  height: 10rem;
+  height: 15rem;
 }
 
 .team .card-footer {
@@ -507,6 +507,9 @@ header .fa-chevron-down {
   }
   header p {
     font-size: 1.6rem;
+  }
+  p {
+    font-size: 1.4rem;
   }
 }
 
